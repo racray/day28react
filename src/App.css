@@ -1,38 +1,100 @@
-.App {
+body{
+  min-height:100vh;
+  /* background-image: linear-gradient(to right top, #7d6bd1, #725ddb, #654fe4, #553fed, #402df5, #472df8, #4e2cfc, #552cff, #7041ff, #8555ff, #9868ff, #a87aff); */
+}
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  gap:2rem;
+  margin-left: 1rem;
+  justify-content: space-evenly;
+  
+}
+
+
+.counter-likdis{
   text-align: center;
+  gap: 1rem;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+
+.add-button{
+  position: relative;
+  top:5rem;
+  width:50%;
+  left:8rem;
+  margin-top:15rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.AddColor{
+  position: relative;
+  left:17rem;
+  top:15rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.home-layout{
+  height:50rem;
+  background-image: url("https://i.pinimg.com/originals/e8/c7/c4/e8c7c4d4e14a9e3b21faf3d7b37c5b03.jpg");
+  color:crimson;
+  font-size:5rem;
+  text-align:center;
+  width:100vw;
+  object-fit: cover;
 }
 
-.App-link {
-  color: #61dafb;
+
+.color-input{
+  width:40rem;
+  height:3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+
+
+
+
+.ToggleColor{
+  background-color: purple;
+}
+
+
+.charts{
+  display:flex;
+  margin: 5rem;
+}
+
+.Utilities{
+  margin:auto;
+
+  margin-top:3rem;
+  height:100vh;
+  width:100vw;
+  background-image: linear-gradient(to left top, #ff0000, #ff005e, #ff3c9f, #dc6bcf, #b08ce8, #a99eed, #a7aeef, #acbced, #c5cbf1, #dadcf5, #eeedfa, #ffffff);  font-size: 2rem;
+  color: crimson;
+}
+
+.Utilities h1{
+  margin-left: 20rem;
+}
+
+.Components{
+  margin:auto;
+  margin-top:3rem;
+  height:100vh;
+  width:100vw;
+  background-image: linear-gradient(to left top, #bc00ff, #a050ff, #886fff, #7885ff, #7696fb, #88a3f7, #9ab0f2, #acbced, #c5cbf1, #dadcf5, #eeedfa, #ffffff);
+  font-size: 2rem;
+  color: blue;
+}
+
+.Components h1{
+  margin-left: 20rem;
 }
